@@ -75,8 +75,7 @@ public class MyAI extends AI {
 		this.lastX = translatedXY[0]; 
 		this.lastY = translatedXY[1];
 		this.lastA = ACTION.UNCOVER;
-		
-		
+			
 		// initialize the board as uncovered region with value -2
 		for (int i = 0; i < this.ROW_DIMENSION; i++) {
 			for (int j = 0; j < this.COL_DIMENSION; j++) {
