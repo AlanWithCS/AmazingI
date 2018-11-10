@@ -2,7 +2,7 @@
 
 This is an intelligent mineswepper agent which can automatically solve the minesweeper game. 
 
-Environment
+Environment:
 Each difficulty has a different dimension and number of mines:
   Beginner: 8 row x 8 column with 10 mines
   Intermediate: 16x16 with 40 mines
@@ -10,14 +10,14 @@ Each difficulty has a different dimension and number of mines:
 The board begins with 1 random tile already uncovered and presumably safe. Mines are randomly placed throughout the board.
 The agent dies when it uncovers a mine.
 
-Actuators
+Actuators:
 The agent has 4 moves:
 (1) The action UNCOVER reveals a covered tile.
 (2) The action FLAG places a flag on a tile.
 (3) The action UNFLAG removes a flag from a tile if that tile has a flag. ○ (4) The action LEAVE ends the game immediately.
 The actions UNCOVER, FLAG, and UNFLAG are to be coupled with a pair of coordinates which allows the agent to act on a single tile. 
 
-Sensors
+Sensors:
 The agent will receive only one percept:
 Following an UNCOVER action, the argent will perceive the hint number associated with the previous UNCOVER action. This number
 represents how many mines are within that tile’s immediate neighbors. Following a FLAG or UNFLAG action, the agent will perceive -1.
