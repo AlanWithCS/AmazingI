@@ -2,18 +2,12 @@
 
 /*
 
+<<<<<<< HEAD
 AUTHOR:      Zhiying QIAN, Yifan ZHANG
+=======
+AUTHOR:      ZHIYING QIAN, YIFAN ZHANG
+>>>>>>> 3e681f6d097a2620f8eeebefcbcf43a77f2cdd86
 
-DESCRIPTION: This file contains your agent class, which you will
-             implement.
-
-NOTES:       - If you are having trouble understanding how the shell
-               works, look at the other parts of the code, as well as
-               the documentation.
-
-             - You are only allowed to make changes to this portion of
-               the code. Any changes to other portions of the code will
-               be lost when the tournament runs your code.
 */
 
 package src;

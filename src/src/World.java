@@ -6,10 +6,6 @@ import java.util.*;
 
 import src.Action.ACTION;
 
-
-/*	Author: John Lu
- */
-
 public class World {
 	
 	// Defaults
