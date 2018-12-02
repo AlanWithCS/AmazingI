@@ -3,7 +3,6 @@
 /*
 
 <<<<<<< HEAD
-AUTHOR:      Zhiying QIAN, Yifan ZHANG
 =======
 AUTHOR:      ZHIYING QIAN, YIFAN ZHANG
 >>>>>>> 3e681f6d097a2620f8eeebefcbcf43a77f2cdd86
