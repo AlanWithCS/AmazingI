@@ -13,9 +13,9 @@ import src.Action.ACTION;
 public class World {
 	
 	// Defaults
-	static final int DEFAULT_COLS = 5;
-	static final int DEFAULT_ROWS = 5;
-	static final int DEFAULT_MINES = 1;
+	static final int DEFAULT_COLS = 10;
+	static final int DEFAULT_ROWS = 10;
+	static final int DEFAULT_MINES = 40;
 	
 	// world-related instance variables
 	private int rowDimension;
@@ -253,11 +253,11 @@ public class World {
 			}
 		}
 
-//		this.uncoverAll();
-//		System.out.println("Final Action: " + actionObj);
-//		System.out.println("Score: " + this.score);
-//		System.out.println("difficulty: " + this.difficulty);
-//		System.out.println("Moves Taken: " + this.moves);
+		this.uncoverAll();
+		System.out.println("Final Action: " + actionObj);
+		System.out.println("Score: " + this.score);
+		System.out.println("difficulty: " + this.difficulty);
+		System.out.println("Moves Taken: " + this.moves);
 		return new Results(this.score, this.difficulty.ordinal(), this.moves);
 	}
 	
